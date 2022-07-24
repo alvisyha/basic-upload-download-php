@@ -1,0 +1,125 @@
+CRITICAL - 2022-04-18 00:00:26 --> File not found: uploads/dokumen/-
+#0 C:\xampp\htdocs\Start\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/dokumen...')
+#1 C:\xampp\htdocs\Start\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('uploads/dokumen...', true)
+#2 C:\xampp\htdocs\Start\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/dokumen...')
+#3 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(56): CodeIgniter\HTTP\Response->download('-', NULL)
+#4 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->download('10011')
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-18 12:25:13 --> Class "App\Controllers\DokumenModel" not found
+#0 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Formupload->index()
+#1 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formupload))
+#2 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-18 13:45:53 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\Start\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Start\system\Common.php(1089): CodeIgniter\View\View->render('informasipublik', Array, true)
+#2 C:\xampp\htdocs\Start\app\Controllers\InformasiPublik.php(9): view('informasipublik')
+#3 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\InformasiPublik->index()
+#4 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformasiPublik))
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-18 15:09:38 --> File not found: uploads/dokumen/-
+#0 C:\xampp\htdocs\Start\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/dokumen...')
+#1 C:\xampp\htdocs\Start\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('uploads/dokumen...', true)
+#2 C:\xampp\htdocs\Start\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/dokumen...')
+#3 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(21): CodeIgniter\HTTP\Response->download('-', NULL)
+#4 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->download('10011')
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-18 15:16:23 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Start\app\Views\dokumen.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Start\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Start\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Start\system\Common.php(1089): CodeIgniter\View\View->render('dokumen', Array, true)
+#4 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(14): view('dokumen', Array)
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->index()
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#7 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-18 15:17:11 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Start\app\Views\dokumen.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Start\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Start\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Start\system\Common.php(1089): CodeIgniter\View\View->render('dokumen', Array, true)
+#4 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(14): view('dokumen', Array)
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->index()
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#7 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-18 15:17:43 --> Undefined array key "id_dokumen"
+#0 C:\xampp\htdocs\Start\app\Views\dokumen.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Start\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Start\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Start\system\Common.php(1089): CodeIgniter\View\View->render('dokumen', Array, true)
+#4 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(14): view('dokumen', Array)
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->index()
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#7 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-18 15:21:21 --> Undefined array key "id_dokumen"
+#0 C:\xampp\htdocs\Start\app\Views\dokumen.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Start\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Start\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Start\system\Common.php(1089): CodeIgniter\View\View->render('dokumen', Array, true)
+#4 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(14): view('dokumen', Array)
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->index()
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#7 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-18 15:21:24 --> Undefined array key "id_dokumen"
+#0 C:\xampp\htdocs\Start\app\Views\dokumen.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Start\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Start\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Start\system\Common.php(1089): CodeIgniter\View\View->render('dokumen', Array, true)
+#4 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(14): view('dokumen', Array)
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->index()
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#7 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-18 15:21:33 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Start\app\Views\dokumen.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Start\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Start\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Start\system\Common.php(1089): CodeIgniter\View\View->render('dokumen', Array, true)
+#4 C:\xampp\htdocs\Start\app\Controllers\Dokumen.php(14): view('dokumen', Array)
+#5 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Dokumen->index()
+#6 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#7 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-18 15:22:57 --> Class "App\Controllers\DokumenModel" not found
+#0 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Formupload->index()
+#1 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formupload))
+#2 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-18 15:24:06 --> Class "App\Controllers\DokumenModel" not found
+#0 C:\xampp\htdocs\Start\system\CodeIgniter.php(832): App\Controllers\Formupload->index()
+#1 C:\xampp\htdocs\Start\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formupload))
+#2 C:\xampp\htdocs\Start\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Start\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Start\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
